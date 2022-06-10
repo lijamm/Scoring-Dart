@@ -15,8 +15,11 @@ else if ( score>80){
 else if (score > 70){
   return 'C';
 }
-else{
+else if (score > 70){
   return 'D';
+}
+else{
+  return 'E';
 }
 }
 
